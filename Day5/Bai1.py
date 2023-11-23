@@ -1,0 +1,6 @@
+s1 = set(map(str, input("ban 1: ").split()))
+s2 = set(map(str, input("ban 2: ").split()))
+print("Sinh vien dang ky ca 2 ban: ", s1 & s2)
+print("Sinh vien dang ky ban 1 khong dang ky ban 2: ", s1 - s2)
+print("Tong sinh vien 2 ban: ", s1.union(s2))
+print("Danh sach sinh vien dang ky 1 ban: ", s1 ^ s2)
